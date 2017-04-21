@@ -32,11 +32,18 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredoka+One">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
 
-    <script type="text/javascript" src={{ asset('Assets/js/libs/modernizr.js') }}></script>
 
 </head>
 
 <body>
-
+{% block body %}{% endblock %}
 </body>
+
+<footer>
+    <!-- Scripts -->
+    <script type="text/javascript" src={{ asset('Assets/js/site.min.js') }}></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src={{ asset('Assets/js/libs/modernizr.js') }}></script>
+</footer>
 </html>
