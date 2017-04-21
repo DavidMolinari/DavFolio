@@ -1,0 +1,4 @@
+services:
+#    dav_folio.example:
+#        class: DavFolioBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
