@@ -1,0 +1,84 @@
+<div class="sidebar sidebar-fixed">
+    <button class="btn-sidebar btn-sidebar-close"> <i class="icon icon-close"></i></button>
+
+    <div class="widget-area">
+        <aside class="widget widget-profile">
+            <div class="profile-photo">
+                <img src={{ asset('TODO') }} alt="David MOLINARI"/>
+            </div>
+            <div class="profile-info">
+                <h2 class="profile-title">David MOLINARI</h2>
+                <h3 class="profile-position">Étudiant & apprenti développeur</h3>
+            </div>
+        </aside><!-- .widget-profile -->
+
+        <aside class="widget widget_contact">
+            <h2 class="widget-title">Me contacter</h2>
+            <form class="contactForm" action={{ path('TODO') }} method="post">
+                <div class="input-field">
+                    <input class="contact-name" type="text" name="name"/>
+                    <span class="line"></span>
+                    <label>Nom</label>
+                </div>
+
+                <div class="input-field">
+                    <input class="contact-email" type="email" name="email"/>
+                    <span class="line"></span>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-field">
+                    <input class="contact-subject" type="text" name="subject"/>
+                    <span class="line"></span>
+                    <label>Objet</label>
+                </div>
+
+                <div class="input-field">
+                    <textarea class="contact-message" rows="4" name="message"></textarea>
+                    <span class="line"></span>
+                    <label>Message</label>
+                </div>
+
+                <span class="btn-outer btn-primary-outer ripple">
+						<input class="contact-submit btn btn-lg btn-primary" type="submit" value="Envoyer"/>
+					</span>
+
+                <div class="contact-response"></div>
+            </form>
+        </aside><!-- .widget_contact -->
+
+        <aside class="widget widget-popuplar-posts">
+            <h2 class="widget-title">Popular posts</h2>
+            <ul>
+                <li>
+                    <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-1.jpg" alt=""/></a></div>
+                    <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                    <div class="post-info"><a href=""><i class="icon icon-comments"></i>56 comments</a></div>
+                </li>
+                <li>
+                    <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-2.jpg" alt=""/></a></div>
+                    <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                    <div class="post-info"><a href=""><i class="icon icon-comments"></i>56 comments</a></div>
+                </li>
+                <li>
+                    <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-3.jpg" alt=""/></a></div>
+                    <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
+                    <div class="post-info"><a href=""><i class="icon icon-comments"></i>56 comments</a></div>
+                </li>
+            </ul>
+        </aside><!-- .widget-projets -->
+
+        <aside class="widget widget_tag_cloud">
+            <h2 class="widget-title">Centres d'intérets</h2>
+            <div class="tagcloud">
+                <a href="" title="1 topic">Développement Web</a>
+                <a href="" title="9 topics">Design</a>
+                <a href="" title="10 topics">E-sport</a>
+                <a href="" title="6 topics">Gestion de projet</a>
+                <a href="" title="2 topics">Musique</a>
+                <a href="" title="5 topics">Compétition</a>
+                <a href="" title="9 topics">Nouveautés</a>
+            </div>
+        </aside><!-- .widget_Interets -->
+    </div><!-- .widget-area -->
+</div><!-- .sidebar -->
