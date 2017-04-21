@@ -12,6 +12,6 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('DavBundle:Default:index.html.twig');
+        return $this->render('@Dav/index.html.twig');
     }
 }
