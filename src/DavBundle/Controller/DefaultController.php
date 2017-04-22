@@ -29,9 +29,13 @@ class DefaultController extends Controller
         $repositoryExperience = $this->getDoctrine()->getRepository('DavBundle:Experience');
         $experiences = $repositoryExperience->findAll();
 
+        $davRepo = $this->getDoctrine()->getRepository('DavBundle:David');
+        $dav = $davRepo->find(1);
+
         return $this->render('@Dav/index.html.twig', array('competences' => $competences,
                                                             'etudes' => $etudes,
-                                                            'experiences' => $experiences));
+                                                            'experiences' => $experiences,
+                                                            'dav' => $dav));
     }
 
 

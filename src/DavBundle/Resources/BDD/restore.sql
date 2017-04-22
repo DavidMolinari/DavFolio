@@ -16,7 +16,7 @@ INSERT INTO `etude` (`periode`, `libelle`, `description`, `cote`, `inverse`) VAL
   ('2007 - 2008', 'Diplôme national du brevet', 'Mention AB', 'right', 'left');
 
 
-select * from experience;
+select * from david;
 
 INSERT INTO `experience` (`periode`, `nomEntreprise`, `metier`, `description`, `cote`, `inverse`) VALUES
   ('2014 - 2015', 'Freelance', 'Designer / Web Designer', 'Je travaille à mon compte, pour de petits projets en Design / Web Design
@@ -28,3 +28,6 @@ Création de Logos, Flyers, Tracts, Bannières publicitaires, etc.', 'left', 'ri
   ('2014-2015', 'MEDIATECH', 'STAGE: MAINTENANCE INFORMATIQUE', 'J''ai travaillé en tant que stagiaire pour le compte de Mediatech en maintenance informatique, j''ai acquis certaines connaissances que je n''avais pas en Hardware.', 'left', 'right'),
   ('2011 - 2017', 'Petits boulots', 'DIVERS', 'J''ai travaillé pendant quelques années en tant que serveur, plongeur, récéptionniste, manutentionnaire, etc.
 Je maintiens à l''heure actuelle le poste de plongeur certains jours par semaine.', 'right', 'left');
+
+INSERT INTO `david` (`nom`, `prenom`, `age`, `numAdresse`, `adresse`, `cp`, `ville`, `Pays`, `mail`, `tel`) VALUES
+  ('MOLINARI', 'David', 24, '03', 'Rue Dumont d\'Urville', 83000, 'Toulon', 'France', 'david@rmolinari.net', '0789877747');

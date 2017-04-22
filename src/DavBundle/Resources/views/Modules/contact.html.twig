@@ -1,0 +1,65 @@
+<section id="contact" class="section section-contact">
+    <div class="animate-up">
+        <h2 class="section-title">Me contacter</h2>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="section-box contact-form">
+                    <h3>N'hésitez pas à me contacter</h3>
+
+                    <form class="contactForm" action="php/contact_form.php" method="post">
+                        <div class="input-field">
+                            <input class="contact-name" type="text" name="name"/>
+                            <span class="line"></span>
+                            <label>Nom</label>
+                        </div>
+
+                        <div class="input-field">
+                            <input class="contact-email" type="email" name="email"/>
+                            <span class="line"></span>
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-field">
+                            <input class="contact-subject" type="text" name="subject"/>
+                            <span class="line"></span>
+                            <label>Objet</label>
+                        </div>
+
+                        <div class="input-field">
+                            <textarea class="contact-message" rows="4" name="message"></textarea>
+                            <span class="line"></span>
+                            <label>Message</label>
+                        </div>
+
+                        <span class="btn-outer btn-primary-outer ripple">
+											<input class="contact-submit btn btn-lg btn-primary" type="submit" value="Send"/>
+										</span>
+
+                        <div class="contact-response"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="section-box contact-info">
+                    <ul class="contact-list">
+                        <li class="clearfix">
+                            <strong>Adresse</strong>
+                            <span>{{ dav.numAdresse }} {{ dav.adresse }}, {{ dav.cp }} {{ dav.ville }}, {{ dav.pays }}</span>
+                        </li>
+                        <li class="clearfix">
+                            <strong>phone</strong>
+                            <span><a href="tel:+{{ dav.tel }}">{{ dav.tel }}</a></span>
+                        </li>
+                        <li class="clearfix">
+                            <strong>E-mail</strong>
+                            <span><a href="mailto:{{ dav.mail }}">{{ dav.mail }}</a></span>
+                        </li>
+                    </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2911.918484941697!2d5.928198715480765!3d43.127238579142755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c91b101d4c9d89%3A0x810d44c24e0aa892!2s3+Rue+Dumont+d&#39;Urville%2C+83000+Toulon!5e0!3m2!1sfr!2sfr!4v1492840493571" width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- #contact -->
