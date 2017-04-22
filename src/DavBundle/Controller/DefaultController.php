@@ -16,7 +16,7 @@ use Symfony\Component\HttpFoundation\Request;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/")
+     * @Route("/", name="home")
      */
     public function indexAction()
     {
@@ -68,7 +68,7 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/projets")
+     * @Route("/projets", name="projets")
      */
     public function listeProjetsAction()
     {
