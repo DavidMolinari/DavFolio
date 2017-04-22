@@ -5,12 +5,12 @@ namespace DavBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Experience
+ * Etude
  *
- * @ORM\Table(name="experience")
- * @ORM\Entity(repositoryClass="DavBundle\Repository\ExperienceRepository")
+ * @ORM\Table(name="etude")
+ * @ORM\Entity(repositoryClass="DavBundle\Repository\EtudeRepository")
  */
-class Experience
+class Etude
 {
     /**
      * @var int
@@ -24,28 +24,21 @@ class Experience
     /**
      * @var string
      *
-     * @ORM\Column(name="periode", type="string", length=255)
+     * @ORM\Column(name="periode", type="string", length=255, nullable=true)
      */
     private $periode;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="nomEntreprise", type="string", length=255, nullable=true)
+     * @ORM\Column(name="libelle", type="string", length=255, nullable=true)
      */
-    private $nomEntreprise;
+    private $libelle;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="metier", type="string", length=255)
-     */
-    private $metier;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="description", type="text")
+     * @ORM\Column(name="description", type="text", nullable=true)
      */
     private $description;
 
@@ -78,7 +71,7 @@ class Experience
      *
      * @param string $periode
      *
-     * @return Experience
+     * @return Etude
      */
     public function setPeriode($periode)
     {
@@ -98,51 +91,27 @@ class Experience
     }
 
     /**
-     * Set nomEntreprise
+     * Set libelle
      *
-     * @param string $nomEntreprise
+     * @param string $libelle
      *
-     * @return Experience
+     * @return Etude
      */
-    public function setNomEntreprise($nomEntreprise)
+    public function setLibelle($libelle)
     {
-        $this->nomEntreprise = $nomEntreprise;
+        $this->libelle = $libelle;
 
         return $this;
     }
 
     /**
-     * Get nomEntreprise
+     * Get libelle
      *
      * @return string
      */
-    public function getNomEntreprise()
+    public function getLibelle()
     {
-        return $this->nomEntreprise;
-    }
-
-    /**
-     * Set metier
-     *
-     * @param string $metier
-     *
-     * @return Experience
-     */
-    public function setMetier($metier)
-    {
-        $this->metier = $metier;
-
-        return $this;
-    }
-
-    /**
-     * Get metier
-     *
-     * @return string
-     */
-    public function getMetier()
-    {
-        return $this->metier;
+        return $this->libelle;
     }
 
     /**
@@ -150,7 +119,7 @@ class Experience
      *
      * @param string $description
      *
-     * @return Experience
+     * @return Etude
      */
     public function setDescription($description)
     {
@@ -174,7 +143,7 @@ class Experience
      *
      * @param string $cote
      *
-     * @return Experience
+     * @return Etude
      */
     public function setCote($cote)
     {
@@ -191,29 +160,5 @@ class Experience
     public function getCote()
     {
         return $this->cote;
-    }
-
-    /**
-     * Set inverse
-     *
-     * @param string $inverse
-     *
-     * @return Experience
-     */
-    public function setInverse($inverse)
-    {
-        $this->inverse = $inverse;
-
-        return $this;
-    }
-
-    /**
-     * Get inverse
-     *
-     * @return string
-     */
-    public function getInverse()
-    {
-        return $this->inverse;
     }
 }

@@ -20,7 +20,18 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('@Dav/index.html.twig');
+        $repositoryCompetence = $this->getDoctrine()->getRepository('DavBundle:Competence');
+        $competences = $repositoryCompetence->findAll();
+
+        $repositoryEtude = $this->getDoctrine()->getRepository('DavBundle:Etude');
+        $etudes = $repositoryEtude->findAll();
+
+        $repositoryExperience = $this->getDoctrine()->getRepository('DavBundle:Experience');
+        $experiences = $repositoryExperience->findAll();
+
+        return $this->render('@Dav/index.html.twig', array('competences' => $competences,
+                                                            'etudes' => $etudes,
+                                                            'experiences' => $experiences));
     }
 
 

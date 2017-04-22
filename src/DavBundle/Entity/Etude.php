@@ -44,6 +44,19 @@ class Etude
 
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="cote", type="string", length=255, nullable=true)
+     */
+    private $cote;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="inverse", type="string", length=255, nullable=true)
+     */
+    private $inverse;
+    /**
      * Get id
      *
      * @return int
@@ -124,5 +137,52 @@ class Etude
     {
         return $this->description;
     }
-}
 
+    /**
+     * Set cote
+     *
+     * @param string $cote
+     *
+     * @return Etude
+     */
+    public function setCote($cote)
+    {
+        $this->cote = $cote;
+
+        return $this;
+    }
+
+    /**
+     * Get cote
+     *
+     * @return string
+     */
+    public function getCote()
+    {
+        return $this->cote;
+    }
+
+    /**
+     * Set inverse
+     *
+     * @param string $inverse
+     *
+     * @return Etude
+     */
+    public function setInverse($inverse)
+    {
+        $this->inverse = $inverse;
+
+        return $this;
+    }
+
+    /**
+     * Get inverse
+     *
+     * @return string
+     */
+    public function getInverse()
+    {
+        return $this->inverse;
+    }
+}
