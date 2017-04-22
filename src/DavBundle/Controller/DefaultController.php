@@ -32,10 +32,13 @@ class DefaultController extends Controller
         $davRepo = $this->getDoctrine()->getRepository('DavBundle:David');
         $dav = $davRepo->find(1);
 
+        $repositoryProjets = $this->getDoctrine()->getRepository('DavBundle:Projet');
+        $projets = $repositoryProjets->findAll();
         return $this->render('@Dav/index.html.twig', array('competences' => $competences,
                                                             'etudes' => $etudes,
                                                             'experiences' => $experiences,
-                                                            'dav' => $dav));
+                                                            'dav' => $dav,
+                                                            'projets' => $projets));
     }
 
 
@@ -67,9 +70,7 @@ class DefaultController extends Controller
 
     }
 
-    /**
-     * @Route("/projets", name="projets")
-     */
+
     public function listeProjetsAction()
     {
         return $this->render('@Dav/Pages/projets.html.twig', array());

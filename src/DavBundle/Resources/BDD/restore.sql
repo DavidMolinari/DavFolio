@@ -31,3 +31,13 @@ Je maintiens à l''heure actuelle le poste de plongeur certains jours par semain
 
 INSERT INTO `david` (`nom`, `prenom`, `age`, `numAdresse`, `adresse`, `cp`, `ville`, `Pays`, `mail`, `tel`) VALUES
   ('MOLINARI', 'David', 24, '03', 'Rue Dumont d\'Urville', 83000, 'Toulon', 'France', 'david@rmolinari.net', '0789877747');
+
+
+INSERT INTO `projet` (`titre`,`date`, `description`,`link`, `nomImage`, `remarque`, `categorie`) VALUES
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design');
