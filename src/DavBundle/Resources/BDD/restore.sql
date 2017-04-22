@@ -34,10 +34,17 @@ INSERT INTO `david` (`nom`, `prenom`, `age`, `numAdresse`, `adresse`, `cp`, `vil
 
 
 INSERT INTO `projet` (`titre`,`date`, `description`,`link`, `nomImage`, `remarque`, `categorie`) VALUES
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'nomImage', 'projet cool test megh', 'Design');
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', '666', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'pigier1', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', '666', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'pigier1', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', '666', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'pigier1', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', '666', 'projet cool test megh', 'Design');
+
+
+
+INSERT INTO `projet` (`titre`,`date`, `description`,`link`, `nomImage`, `remarque`, `categorie`) VALUES
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'knossos', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'siomag', 'projet cool test megh', 'Design'),
+  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'wikisio', 'projet cool test megh', 'Design');

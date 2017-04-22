@@ -8,11 +8,12 @@
                 <article class="post-box animate-up">
                     <div class="post-media">
                         <div class="post-image">
-                            <a href="single.html"><img src={{ asset('Assets/img/uploads/portfolio/portfolio-thumb-05-610x600.jpg') }} alt=""> </a>
+                            <a href="single.html"><img src={{ asset('Assets/img/projets/'~ projet.nomImage ~'.jpg ') }} alt=""> </a>
                         </div>
                     </div>
 
                     <div class="post-data">
+
                         <time class="post-datetime" {{ projet.date|date("m/d/Y", "Europe/Paris")  }}>
                             <span class="day">{{ projet.date|date("d", "Europe/Paris")  }}</span>
                             <span class="month">{{ projet.date|date("M", "Europe/Paris")  }}</span>
@@ -34,10 +35,6 @@
                 </article>
             </div>
         {% endfor %}
-
-
     </div><!-- .blog-grid -->
 </div><!-- .blog -->
-
 </section>
-<!-- END: PAGE CONTENT -->
