@@ -161,4 +161,28 @@ class Etude
     {
         return $this->cote;
     }
+
+    /**
+     * Set inverse
+     *
+     * @param string $inverse
+     *
+     * @return Etude
+     */
+    public function setInverse($inverse)
+    {
+        $this->inverse = $inverse;
+
+        return $this;
+    }
+
+    /**
+     * Get inverse
+     *
+     * @return string
+     */
+    public function getInverse()
+    {
+        return $this->inverse;
+    }
 }

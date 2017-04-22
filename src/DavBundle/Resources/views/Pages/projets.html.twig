@@ -1,0 +1,42 @@
+{% extends('@Dav/Default/base.html.twig') %}
+{% block body %}
+    <body class="home header-has-img loading">
+    {% include('@Dav/Modules/mobileNav.html.twig') %}
+    {% include('@Dav/Modules/sideBar.html.twig') %}
+    <div class="wrapper">
+        {% include('@Dav/Modules/header.html.twig') %}
+        <div class="content">
+            <div class="container">
+
+                <!-- PARTIE LISTE PROJETS -->
+                {% include('@Dav/Modules/listeProjets.html.twig') %}
+
+            </div><!-- .container -->
+        </div><!-- .content -->
+
+        <footer class="footer">
+            <div class="footer-social">
+                <ul class="social">
+                    <li><a class="ripple-centered" href="" target="_blank"><i class="icon icon-facebook"></i></a></li>
+                    <li><a class="ripple-centered" href="" target="_blank"><i class="icon icon-twitter"></i></a></li>
+                    <li><a class="ripple-centered" href="" target="_blank"><i class="icon icon-linkedin"></i></a></li>
+                    <li><a class="ripple-centered" href="https://github.com/DavidMolinari" target="_blank"><i class="icon icon-github"></i></a></li>
+                    <li><a class="ripple-centered" href="https://fr.pinterest.com/davidmolinarii/pins/" target="_blank"><i class="icon icon-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </footer><!-- .footer -->
+    </div><!-- .wrapper -->
+
+    <a class="btn-scroll-top" href="index.html.twig#"><i class="icon icon-arrow-up"></i></a>
+    <div id="overlay"></div>
+    <div id="preloader">
+        <div class="preload-icon"><span></span><span></span></div>
+        <div class="preload-text">Loading ...</div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/site.min.js"></script>
+    </body>
+{% endblock %}

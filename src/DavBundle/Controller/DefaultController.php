@@ -63,6 +63,15 @@ class DefaultController extends Controller
 
     }
 
+    /**
+     * @Route("/projets")
+     */
+    public function listeProjetsAction()
+    {
+        return $this->render('@Dav/Pages/projets.html.twig', array());
+    }
+
+
 
 
 }

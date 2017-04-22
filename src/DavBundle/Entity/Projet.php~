@@ -224,28 +224,5 @@ class Projet
     {
         return $this->remarque;
     }
-
-    /**
-     * Set categorie
-     *
-     * @param string $categorie
-     *
-     * @return Projet
-     */
-    public function setCategorie($categorie)
-    {
-        $this->categorie = $categorie;
-
-        return $this;
-    }
-
-    /**
-     * Get categorie
-     *
-     * @return string
-     */
-    public function getCategorie()
-    {
-        return $this->categorie;
-    }
 }
+

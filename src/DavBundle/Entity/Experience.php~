@@ -168,4 +168,52 @@ class Experience
     {
         return $this->description;
     }
+
+    /**
+     * Set cote
+     *
+     * @param string $cote
+     *
+     * @return Experience
+     */
+    public function setCote($cote)
+    {
+        $this->cote = $cote;
+
+        return $this;
+    }
+
+    /**
+     * Get cote
+     *
+     * @return string
+     */
+    public function getCote()
+    {
+        return $this->cote;
+    }
+
+    /**
+     * Set inverse
+     *
+     * @param string $inverse
+     *
+     * @return Experience
+     */
+    public function setInverse($inverse)
+    {
+        $this->inverse = $inverse;
+
+        return $this;
+    }
+
+    /**
+     * Get inverse
+     *
+     * @return string
+     */
+    public function getInverse()
+    {
+        return $this->inverse;
+    }
 }
