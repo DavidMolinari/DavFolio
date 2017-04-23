@@ -45,6 +45,45 @@ INSERT INTO `projet` (`titre`,`date`, `description`,`link`, `nomImage`, `remarqu
 
 
 INSERT INTO `projet` (`titre`,`date`, `description`,`link`, `nomImage`, `remarque`, `categorie`) VALUES
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'knossos', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'siomag', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'wikisio', 'projet cool test megh', 'Design');
+  ('Accès Wifi', '1970-01-01 00:00:01', 'Application qui fournit un service de demande d''accés Wifi à des étudiants,
+  les étudiants ont la possibilité de se connecter, ajouter des appareils, et soumettre des demandes d''accès.
+Les administrateurs quant à eux, ont un pannel d''administration permettant de voir toutes les demandes, de les valider
+ ou non et d''avoir une vue sur l''historique de toutes les demandes.', 'https://git.sevenn.fr/DMTS/AWProject_Reborn', 'Awp', '', 'dev'),
+  ('Génération de lettre d\'excuses', '2016-07-06 00:00:01', 'Petite application développée en C# qui permet de générer
+   des lettres d\'éxcuses pour des absences, ou des retards en respectant le format imposé par l\'établissement dans le
+   simple bût de s\'amuser avec :-)', 'https://github.com/DavidMolinari/Excuses', 'excuses', '', 'dev'),
+  ('Flappy Bird', '2016-06-06 00:00:01', 'Petit jeux vidéo en 2D développé sous Java',
+   'https://github.com/DavidMolinari/Simple-FlappyBird', 'flappybird', 'knossos', 'dev'),
+  ('Projet K', '2016-06-06 00:00:01', 'Projet réalisé pour le compte de la Direction interarmées des réseaux d\'infrastructures et du système d''information de la défense, où l''on a participé au développement d''une application RETEX ou plutôt de retour et de gestion d''anomalies, embarquée dans les sous marins, avec du contenu à diffusion restreinte voir même du Confidentiel défense mais je n''ai pas manipulé ce dernier contenu.
+Knossos est une application Java qui tourne sur un serveur JBOS ( un serveur d''applications JAVA EE ) avec un framework respectant le design pattern du modèle MVC fait maison, et la téchnologie GWT.
+J''ai eu diverses tâches au cours de ce projet comme :
+	- Des correctifs de bug mineurs
+	- De la gestion de version sous GIT
+	- Un chantier d''export en CSV
+	- Des propositions évolutives
+	- De la mise en page sur JasperSoft Studio
+	- De la création et modification d''IHM
+	- Et du développement Back-End d''algorithmes, de méthodes, etc.
+', '', 'knossos', '', 'dev'),
+  ('Nolark', '2016-06-21 00:00:01', 'Transforamation d''un site web réalisé en TP en plusieurs facettes :
+  une version plus attrayante au premier regard, ainsi qu''une version entièrement refaite sur le framework
+  Symfony dans le bût de la présenter en démonstration au salon du numérique. ',
+   'https://github.com/BtsSioBona/Nolark', 'nolark', '', 'dev'),
+  ('Pigier Création Toulon', '2016-06-21 00:00:01', 'Réalisation de divers Flyers, Porte documents pour Pigier,
+  l\'école du style et de la beauté à Toulon.',
+   '', 'pigier1', 'http://imgur.com/a/p03WW', 'design'),
+  ('Portfolio', '2017-03-21 00:00:01', 'Réalisation de mon portfolio sous Symfony et Twig, les informations sont toutes stoquées dans la base de données.',
+   'https://github.com/DavidMolinari/DavFolio', 'portfolio', '', 'dev'),
+  ('Pralines et Moi', '2016-03-27 00:00:01', 'Réalisation de Logo pour le compte de Pralines et Moi.',
+   '', 'pralinesEtMoi', 'pm', 'design'),
+  ('RSS ENHANCED', '2016-01-12 00:00:01', 'Réalisation de mon portfolio sous Symfony et Twig, les informations sont toutes stoquées dans la base de données.',
+   'https://github.com/DavidMolinari/simple-RSSReader', 'RSS', '', 'dev'),
+  ('SIOMAG', '2016-05-11 00:00:01', 'Réalisation de la couverture d''un magazine entièrement fait par les élèves de BTS SIO.',
+   'https://madmagz.com/fr/magazine/760204#/', 'siomag', '', 'design'),
+  ('Text Editor', '2016-02-01 00:00:01', 'Réalisation d\'un petit éditeur de texte en C#.',
+   'https://github.com/DavidMolinari/Simple-Text-Editor', 'texteditor', '', 'dev'),
+  ('WIKI BTS SIO BONA', '2016-05-21 00:00:01', 'Projet collaboratif, où j\'ai mis en place à disposition des élèves
+  de BTS SIO principalement un Wiki qui rassemble toutes les petites trouvailles, les problèmes réccurents de tout
+  langage informatique.C\'est un projet libre, ouvert à n\'importe quelle personne qui veut y participer à condition
+  de respecter certaines contraites de contributions.',
+   'https://github.com/BtsSioBona/Wiki', 'wikisio', '', 'dev');
