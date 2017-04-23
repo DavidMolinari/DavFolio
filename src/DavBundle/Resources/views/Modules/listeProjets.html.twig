@@ -1,10 +1,12 @@
 <!-- START: PAGE CONTENT -->
 <section id="blog" class="section">
-<div class="blog">
+    <h2 class="section-title">Mes projets : </h2>
+
+    <div class="blog">
     <div class="blog-grid">
         <div class="grid-sizer"></div>
         {% for projet in projets  %}
-            <div class="grid-item">
+            <div id="{{ projet.nomImage }}" class="grid-item">
                 <article class="post-box animate-up">
                     <div class="post-media">
                         <div class="post-image">

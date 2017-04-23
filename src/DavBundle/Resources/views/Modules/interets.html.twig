@@ -44,39 +44,13 @@
     <div class="animate-up">
 
         <div class="clients-carousel">
-            <div class="client-logo">
-                <img src={{ asset('Assets/img/uploads/logos/logo-bootstrap.png') }} title="Bootstrap" alt="Bootstrap"/>
-            </div>
-            <div class="client-logo">
-                <img src={{ asset('Assets/img/uploads/logos/logo-discord.png') }} title="Discord" alt="Discord"/>
-            </div>
-            <div class="client-logo">
-                <img src={{ asset('Assets/img/uploads/logos/logo-github.png') }} title="Github" alt="Github"/>
-            </div>
-            <div class="client-logo">
-                <img src={{ asset('Assets/img/uploads/logos/logo-reddit.png') }} title="Reddit" alt="Reddit"/>
-            </div>
-            <div class="client-logo">
-                <img src={{ asset('Assets/img/uploads/logos/logo-steam.png') }} title="Steam" alt="Steam"/>
-            </div>
-            <div class="client-logo">
-                <img src={{ asset('Assets/img/uploads/logos/logo-symfony.png') }} title="Symfony" alt="Symfony"/>
-            </div>
 
-            <div class="client-logo">
-                <img src={{ asset('Assets/img/uploads/logos/logo-codepen.png') }} title="Codepen.io" alt="Codepen.io"/>
-            </div>
-
-            <div class="client-logo">
-                <img src={{ asset('Assets/img/uploads/logos/logo-elementary.png') }} title="Elementary Os" alt="Elementary Os"/>
-            </div>
-
+            {% for interet in interets  %}
+                <div class="client-logo">
+                    <img src={{ asset('Assets/img/logos/'~ interet.nomFichier ~'.svg') }} title="{{ interet.libelle }}" alt="{{ interet.libelle }}"/>
+                </div>
+            {% endfor %}
 
         </div>
     </div>
-    </br></br></br></br></br>
-    <h2 class="section-title">Mes projets</h2>
-    </br></br>
-
-
 </section><!-- #clients -->

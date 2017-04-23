@@ -87,3 +87,18 @@ J''ai eu diverses tâches au cours de ce projet comme :
   langage informatique.C\'est un projet libre, ouvert à n\'importe quelle personne qui veut y participer à condition
   de respecter certaines contraites de contributions.',
    'https://github.com/BtsSioBona/Wiki', 'wikisio', '', 'dev');
+
+
+INSERT INTO `interet` (`libelle`, `nomFichier`) VALUES
+  ('Bootstrap', 'bootstrap.eps'),
+  ('Codepen', 'codepen.eps'),
+  ('Discord', 'discord.svg'),
+  ('Elementary Os', 'elementary.svg'),
+  ('Git', 'git.svg'),
+  ('GitKraken', 'gitkraken.svg'),
+  ('GitLab', 'gitlab.svg'),
+  ('IntellJ', 'intellj.svg'),
+  ('Reddit', 'reddit.eps'),
+  ('Stack Overflow', 'stackoverflow.eps'),
+  ('Symfony', 'symfony.eps'),
+  ('Taiga', 'taiga.svg');

@@ -6131,8 +6131,6 @@ body {
     -webkit-transform: scale(1);
   }
 }
-
-
 .coneAss{
   width: 500px;
   white-space: nowrap;
@@ -6140,3 +6138,9 @@ body {
   text-overflow: ellipsis;
 }
 
+
+.littlethumb{
+  height: 40px!important;
+  width: 78px!important;
+
+}

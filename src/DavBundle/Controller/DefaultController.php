@@ -32,13 +32,17 @@ class DefaultController extends Controller
         $davRepo = $this->getDoctrine()->getRepository('DavBundle:David');
         $dav = $davRepo->find(1);
 
+        $repositoryInteret= $this->getDoctrine()->getRepository('DavBundle:Interet');
+        $interets = $repositoryInteret->findAll();
+
         $repositoryProjets = $this->getDoctrine()->getRepository('DavBundle:Projet');
         $projets = $repositoryProjets->findAll();
         return $this->render('@Dav/index.html.twig', array('competences' => $competences,
                                                             'etudes' => $etudes,
                                                             'experiences' => $experiences,
                                                             'dav' => $dav,
-                                                            'projets' => $projets));
+                                                            'projets' => $projets,
+                                                            'interets' => $interets));
     }
 
     /**
