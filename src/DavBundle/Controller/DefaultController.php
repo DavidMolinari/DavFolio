@@ -41,8 +41,6 @@ class DefaultController extends Controller
                                                             'projets' => $projets));
     }
 
-
-
     /**
      * @Route("/generationcompetences")
      */
