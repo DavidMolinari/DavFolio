@@ -50,21 +50,17 @@
         <aside class="widget widget-popuplar-posts">
             <h2 class="widget-title">Projets épinglés</h2>
             <ul>
+
+                {% for projet in projets  %}
                 <li>
-                    <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-1.jpg" alt=""/></a></div>
-                    <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
-                    <div class="post-info"><a href=""><i class="icon icon-comments"></i>56 comments</a></div>
-                </li>
+                    <div class="post-media"><a href="">
+                            <img src={{ asset('Assets/img/projets/'~ projet.nomImage ~'.jpg ') }} alt=""></a>
+                    </div>
+                    <h3 class="post-title"><a href="">{{ projet.titre }}</a></h3>
+                    <div class="post-info"><a href=""><p class="coneAss" title="{{ projet.description }}">{{ projet.description }}</p></a></div>
                 <li>
-                    <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-2.jpg" alt=""/></a></div>
-                    <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
-                    <div class="post-info"><a href=""><i class="icon icon-comments"></i>56 comments</a></div>
-                </li>
-                <li>
-                    <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-3.jpg" alt=""/></a></div>
-                    <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
-                    <div class="post-info"><a href=""><i class="icon icon-comments"></i>56 comments</a></div>
-                </li>
+
+                {% endfor %}
             </ul>
         </aside><!-- .widget-projets -->
 

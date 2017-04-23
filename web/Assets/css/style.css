@@ -3343,7 +3343,7 @@ body {
 @media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   .fancybox-portfolio .fancybox-nav span,
   .fancybox-portfolio .fancybox-close {
-    background-image: url("img/fancybox_sprite@2x.png");
+    background-image: url("Assets/img/fancybox_sprite@2x.png");
     background-size: 135px 45px; } }
 @media (max-width: 992px) {
   .fancybox-inline-box {
@@ -6130,5 +6130,13 @@ body {
   to {
     -webkit-transform: scale(1);
   }
+}
+
+
+.coneAss{
+  width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
