@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9276b69-e3d5-44d3-8f6b-02c3f0146671" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/bootstrap.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/codepen.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/reddit.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/stackoverflow.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/symfony.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/discord.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/elementary.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/git.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/gitkraken.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/gitlab.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/intellj.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Assets/img/logos/taiga.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/f8e7b488-ab16-4cd9-8aad-ee391d6fd9e2.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/f8e7b488-ab16-4cd9-8aad-ee391d6fd9e2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DavBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/DavBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DavBundle/Resources/BDD/restore.sql" afterPath="$PROJECT_DIR$/src/DavBundle/Resources/BDD/restore.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DavBundle/Resources/views/Default/base.html.twig" afterPath="$PROJECT_DIR$/src/DavBundle/Resources/views/Default/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/interets.html.twig" afterPath="$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/interets.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/listeProjets.html.twig" afterPath="$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/listeProjets.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/sideBar.html.twig" afterPath="$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/sideBar.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DavBundle/Resources/views/index.html.twig" afterPath="$PROJECT_DIR$/src/DavBundle/Resources/views/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/Assets/css/style.css" afterPath="$PROJECT_DIR$/web/Assets/css/style.css" />
-    </list>
+    <list default="true" id="a9276b69-e3d5-44d3-8f6b-02c3f0146671" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,8 +51,18 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DavBundle/Resources/views/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apropos.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/apropos.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="76" lean-forward="true" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -91,11 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/contact.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DavBundle/Form/ContactType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -142,18 +139,6 @@
             <state relative-caret-position="170">
               <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DavBundle/Controller/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="37" column="82" lean-forward="false" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
-              <folding>
-                <element signature="e#1184#1203#1#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -234,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/DavBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/listeProjets.html.twig" />
         <option value="$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/interets.html.twig" />
+        <option value="$PROJECT_DIR$/src/DavBundle/Form/ContactType.php" />
       </list>
     </option>
   </component>
@@ -542,6 +528,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Davfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Davfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DavBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1050,12 +1058,12 @@
       <workItem from="1492815812485" duration="16123000" />
       <workItem from="1492882693065" duration="3205000" />
       <workItem from="1492893593382" duration="12458000" />
-      <workItem from="1492953611164" duration="13004000" />
+      <workItem from="1492953611164" duration="13263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54485000" />
+    <option name="totallyTimeSpent" value="54744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1103,11 +1111,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/Assets/img/projets/knossos.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DavBundle/DavBundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1244,14 +1247,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/apropos.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="236" lean-forward="false" selection-start-line="57" selection-start-column="236" selection-end-line="57" selection-end-column="236" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1377,14 +1372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DavBundle/Resources/views/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DavBundle/Resources/views/Default/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1435,8 +1422,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DavBundle/Form/ContactType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DavBundle/Resources/views/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DavBundle/Resources/views/Modules/apropos.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="76" lean-forward="true" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
           <folding />
         </state>
       </provider>
