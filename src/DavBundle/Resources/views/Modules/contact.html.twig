@@ -7,37 +7,38 @@
                 <div class="section-box contact-form">
                     <h3>N'hésitez pas à me contacter</h3>
 
-                    <form class="contactForm" action="php/contact_form.php" method="post">
-                        <div class="input-field">
-                            <input class="contact-name" type="text" name="name"/>
-                            <span class="line"></span>
-                            <label>Nom</label>
-                        </div>
+                    {{ form_start(form) }}
+                    <div class="input-field">
+                        {{ form_widget(form.subject, {'attr': {'class': 'contact-subject'}}) }}
+                        <span class="line"></span>
 
-                        <div class="input-field">
-                            <input class="contact-email" type="email" name="email"/>
-                            <span class="line"></span>
-                            <label>Email</label>
-                        </div>
+                        {{ form_errors(form.subject) }}
+                    </div>
+                    <div class="input-field">
+                        {{ form_widget(form.nom, {'attr': {'class': 'contact-name'}}) }}
+                        <span class="line"></span>
 
-                        <div class="input-field">
-                            <input class="contact-subject" type="text" name="subject"/>
-                            <span class="line"></span>
-                            <label>Objet</label>
-                        </div>
+                        {{ form_errors(form.nom) }}
+                    </div>
+                    <div class="input-field">
+                        {{ form_widget(form.email, {'attr': {'class': 'contact-email'}}) }}
+                        <span class="line"></span>
 
-                        <div class="input-field">
-                            <textarea class="contact-message" rows="4" name="message"></textarea>
-                            <span class="line"></span>
-                            <label>Message</label>
-                        </div>
+                        {{ form_errors(form.email) }}
+                    </div>
+                    <div class="input-field">
+                        {{ form_widget(form.message, {'attr': {'class': 'contact-message'}}) }}
 
-                        <span class="btn-outer btn-primary-outer ripple">
-											<input class="contact-submit btn btn-lg btn-primary" type="submit" value="Envoyer"/>
-										</span>
+                        {{ form_errors(form.message) }}
+                    </div>
 
-                        <div class="contact-response"></div>
-                    </form>
+                    {# Render CSRF token etc .#}
+                    <div style="display:none">
+                        {{ form_rest(form) }}
+                    </div>
+                        <input class="btn btn-lg btn-primary" type="submit" value="Envoyer"/>
+                    {{ form_end(form) }}
+
                 </div>
             </div>
 
