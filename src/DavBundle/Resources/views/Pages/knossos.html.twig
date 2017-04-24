@@ -7,7 +7,122 @@
         {% include('@Dav/Modules/header.html.twig') %}
         <div class="content">
             <div class="container">
+                <div class="row animate-up">
+                    <div class="col-sm-18">
+                        <main class="post-single">
+                            <article class="post-content section-box">
+                                <div class="post-inner">
+                                    <header class="post-header">
+                                        <div class="post-data">
+                                            <div class="post-tag">
+                                                <a href="#">#dev</a>
+                                            </div>
 
+                                            <div class="post-title-wrap">
+                                                <h1 class="post-title">Projet K</h1>
+                                                <time class="post-datetime" datetime="2017-03-13T07:44:01+00:00">
+                                                    <span class="day">19</span>
+                                                    <span class="month">MAI</span>
+                                                </time>
+                                            </div>
+
+                                            <div class="post-info">
+                                                <a href=""><i class="icon icon-user"></i>by admin</a>
+                                                <a href=""><i class="icon icon-comments"></i>56</a>
+                                            </div>
+                                        </div>
+                                    </header>
+
+                                    <div class="post-editor clearfix">
+                                        <p>Projet réalisé pour le compte de la Direction interarmées des réseaux d'infrastructures et du système d'information de la défense, où l'on a participé au développement d'une application RETEX ou plutôt de retour et de gestion d'anomalies, embarquée dans les sous marins, avec du contenu à diffusion restreinte voir même du Confidentiel défense mais je n'ai pas manipulé ce dernier contenu.
+                                            </br> C'est une application Java qui tourne sur un serveur JBOS ( un serveur d'applications JAVA EE ) avec un framework respectant le design pattern du modèle MVC fait maison, et la téchnologie GWT.
+                                            </br>J'ai eu diverses tâches au cours de ce projet comme :
+
+                                        <li>Des correctifs de bug mineurs</li>
+                                        <li>De la gestion de version sous GIT</li>
+                                        <li>Un chantier d'export en CSV</li>
+                                        <li>Des propositions évolutives</li>
+                                        <li>De la mise en page sur JasperSoft Studio</li>
+                                        <li>De la création et modification d'IHM</li>
+                                        <li>Et du développement Back-End d'algorithmes, de méthodes, etc.</li>
+                                        </p>
+                                        <blockquote>
+                                            <img src={{ asset('Assets/img/K.png') }} alt="" style="width: 100%;">
+
+                                            <p>"ok = true;"<br>
+                                                return ok;
+
+                                            </p>
+                                        </blockquote>
+
+                                        <pre><code class="language-java">
+                                                /**
+   * Permet de tester deux objets en prenant en compte le cas ou l'un des deux pourrait être à null
+   * @param firstString
+   * @param secondString
+   * @return boolean
+   */
+
+  public static boolean testHasDifferent(Object firstString, Object secondString)
+  {
+    boolean modifie = false;
+    String param1 = convert2String(firstString), param2 = convert2String(secondString);
+
+    if (KnossosComposite.isEmpty(param1))
+    {
+      if (KnossosComposite.isNotEmpty(param2))
+      {
+        modifie = true;
+      }
+    }
+    else
+    {
+      if (! param1.equals(param2))
+      {
+        modifie = true;
+      }
+    }
+    return modifie;
+  }
+
+
+                                                /**
+     * Méthode pour récupérer les champs XXX d'une liste de pieces
+     * @param pieces : la liste de pieces
+     * @param nbValues : le nombre de valeurs à récupérer
+     * @return String
+     */
+  public static String getXXX(List<XXX> pieces, int nbValues){
+    StringBuilder sb = new StringBuilder();
+    if(!pieces.isEmpty()){
+      if(pieces.size() > 1){
+        sb.append(pieces.get(0).getSomething()!=null?pieces.get(0).getSomething():"");
+        for (int i = 1; i < pieces.size(); i++) {
+          sb.append(new Character((char)29).toString());
+          sb.append(pieces.get(i).getSomething()!=null?pieces.get(i).getSomething():"");
+        }
+      } else {
+        sb.append(pieces.get(0).getSomething()!=null?pieces.get(0).getSomething():"");
+      }
+    }
+    return sb.toString();
+  }
+                                            </code></pre>
+
+
+
+                                        <img src={{ asset('Assets/img/K.png') }} alt="" style="width: 100%;">
+                                    </div>
+
+                                </div><!-- .post-inner -->
+                            </article><!-- .post-content -->
+
+
+                        </main>
+                        <!-- .post-single -->
+                    </div>
+
+                </div>
             </div><!-- .container -->
         </div><!-- .content -->
 
