@@ -38,17 +38,6 @@ INSERT INTO `david` (`nom`, `prenom`, `age`, `numAdresse`, `adresse`, `cp`, `vil
 
 
 INSERT INTO `projet` (`titre`,`date`, `description`,`link`, `nomImage`, `remarque`, `categorie`) VALUES
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', '666', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'pigier1', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', '666', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'pigier1', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', '666', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', 'pigier1', 'projet cool test megh', 'Design'),
-  ('meh', NOW(), 'Description à la con lorem ipsum meh', 'meh.fr', '666', 'projet cool test megh', 'Design');
-
-
-
-INSERT INTO `projet` (`titre`,`date`, `description`,`link`, `nomImage`, `remarque`, `categorie`) VALUES
   ('Accès Wifi', '1970-01-01 00:00:01', 'Application qui fournit un service de demande d''accés Wifi à des étudiants,
   les étudiants ont la possibilité de se connecter, ajouter des appareils, et soumettre des demandes d''accès.
 Les administrateurs quant à eux, ont un pannel d''administration permettant de voir toutes les demandes, de les valider
