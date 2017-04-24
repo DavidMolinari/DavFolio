@@ -1,8 +1,12 @@
 INSERT INTO `competence` (`libelle`, `value`) VALUES
-('Développement Web', 70),
+('Html / Css', 80),
+('Php', 70),
+('Javascript', 60),
 ('Symfony', 65),
-('Développement Client Lourd', 70),
+('C#', 65),
 ('Design', 80),
+('Java', 60),
+('SQL / PLSQL', 70),
 ('Linux', 70),
 ('Gestion de Projet', 75);
 
