@@ -47,7 +47,7 @@
 
             {% for interet in interets  %}
                 <div class="client-logo">
-                    <img src={{ asset('Assets/img/logos/'~ interet.nomFichier ~'.svg') }} title="{{ interet.libelle }}" alt="{{ interet.libelle }}"/>
+                    <img src={{ asset('Assets/img/logos/'~ interet.nomFichier ~'') }} title="{{ interet.libelle }}" alt="{{ interet.libelle }}"/>
                 </div>
             {% endfor %}
 

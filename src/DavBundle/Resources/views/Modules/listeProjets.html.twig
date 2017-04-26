@@ -10,7 +10,7 @@
                 <article class="post-box animate-up">
                     <div class="post-media">
                         <div class="post-image">
-                            <a href="#"><img class="coneAss" src={{ asset('Assets/img/projets/'~ projet.nomImage ~'.jpg ') }} alt=""></a>
+                            <a href={{ projet.link }}><img class="coneAss" src={{ asset('Assets/img/projets/'~ projet.nomImage ~'.jpg ') }} alt=""></a>
                         </div>
                     </div>
 
@@ -22,7 +22,7 @@
                         </time>
 
                         <div class="post-tag">
-                            <a href="">#{{ projet.categorie }}</a>
+                            <a href={{ projet.link }}>#{{ projet.categorie }}</a>
                         </div>
 
                         <h3 class="post-title">
@@ -31,7 +31,7 @@
 
                         <div class="post-info">
                             <p>{{ projet.description }}</p>
-                            <a href=""><i class="icon icon-link"></i>{{ projet.link }}</a>
+                            <a href={{ projet.link }}><i class="icon icon-link"></i>{{ projet.link }}</a>
                         </div>
                     </div>
                 </article>

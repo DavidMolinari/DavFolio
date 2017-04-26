@@ -83,15 +83,15 @@ J''ai eu diverses tâches au cours de ce projet comme :
 
 
 INSERT INTO `interet` (`libelle`, `nomFichier`) VALUES
-  ('Bootstrap', 'bootstrap.eps'),
-  ('Codepen', 'codepen.eps'),
+  ('Bootstrap', 'bootstrap.svg'),
+  ('Codepen', 'codepen.svg'),
   ('Discord', 'discord.svg'),
   ('Elementary Os', 'elementary.svg'),
   ('Git', 'git.svg'),
   ('GitKraken', 'gitkraken.svg'),
   ('GitLab', 'gitlab.svg'),
   ('IntellJ', 'intellj.svg'),
-  ('Reddit', 'reddit.eps'),
-  ('Stack Overflow', 'stackoverflow.eps'),
-  ('Symfony', 'symfony.eps'),
+  ('Reddit', 'reddit.svg'),
+  ('Stack Overflow', 'stackoverflow.svg'),
+  ('Symfony', 'symfony.svg'),
   ('Taiga', 'taiga.svg');
